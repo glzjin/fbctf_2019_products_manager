@@ -6,7 +6,7 @@ services:
 
   web:
     build: .
-    image: glzjin/fbctf_2019_products_manager
+    image: ctftraining/fbctf_2019_products_manager
     restart: always
     ports:
       - "127.0.0.1:8302:80"
